@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./css/style.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -21,20 +20,15 @@
             <div class="flex container">
                 <a id="logo" href="/">PETRA VILLE REAL ESTATE</a>
                 <nav>
-                    <button id="nav-toggle" class="hamburger-menu">
-                        <span class="strip"></span>
-                        <span class="strip"></span>
-                        <span class="strip"></span>
-                    </button>
 
                     <ul id="nav-menu">
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="http://www.google.com" target="_blank">Properties</a></li>
+                        <li><a href="./index.php" class="active">Home</a></li>
+                        <li><a href="./pages/property_listing.php" target="_blank">Properties</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                         <a class="nav-inquire-btn" href="./pages/process_inquiry.php"><li class="nav-inquire">Inquire NOW</a></li>
                         <!-- email here-->
-                        <?php include './functions/header_user.php'; ?>
+                        <li class="user-login"><?php include './functions/header_user.php'; ?></li>
                         
                         <li id="close-flyout"><span class="fas fa-times"></span></li>
                         
@@ -48,9 +42,8 @@
             <div class="fade"></div>
             <div class="hero-text">
                 <h1>Buy and Rent<br> Real Estate Properties</h1>
-                <p>Lorem ipsum dolor sit amet consectectur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
-                <button class="B-prop"> Properties
-                </button>
+                <p>Discover the perfect home that suits your lifestyle. Explore a range of real estate properties available for purchase or rent, each designed to fulfill your dreams and aspirations.</p>
+                <a href="./pages/property_listing.php"><button class="B-prop"> Properties</button></a>
             </div>
             
         </section>
@@ -63,19 +56,19 @@
                 <div>
                     <span class="fas fa-home"></span>
                     <h4>Find a Property.</h4>
-                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                    <p>Discover the perfect property that fits your lifestyle and preferences. Uncover a range of options tailored to meet your unique needs.</p>
                 </div>
 
                 <div>
                     <span class="fas fa-dollar-sign"></span>
                     <h4>Buy a Property.</h4>
-                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                    <p>Embark on the journey to homeownership with confidence. Find your dream property among our diverse selection, designed to fulfill your aspirations.</p>
                 </div>
 
                 <div>
                     <span class="fas fa-chart-line"></span>
                     <h4>Investing.</h4>
-                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                    <p>Explore lucrative investment opportunities that align with your financial goals and vision for the future.</p>
                 </div>
             </div>
         </div>
@@ -159,7 +152,7 @@
     <section id="the-best">
         <div class="flex container">
             <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="Property 1" />
-            <div>
+            <div class="best-second-container">
                 <h2>We Are the Best Real Estate Company</h2>
                 <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>

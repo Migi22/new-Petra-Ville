@@ -1,4 +1,12 @@
 body {
+    background-image: url("../assets/images/yos.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,11 +15,16 @@ body {
     align-items: center;
   }
   
+  #goback {
+    margin-bottom: 20px;
+  }
+
   .inquiry-container {
     width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    background-color: #ccc;
   }
   
   form {

@@ -1,6 +1,6 @@
 <?php
 // Include your database connection code here
-include '../config/database.php';
+include './config/database.php';
 
 session_start();
 
@@ -23,10 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
             $_SESSION['admin_id'] = $row['admin_id'];
-            header("Location: admin_dashboard.php");
+            header("Location: ./pages/admin_dashboard.php");
             exit();
         } else {
-            $error_message = "Invalid password.".$password."and".$row['password'];
+            $error_message = "Invalid password.";
         }
     } else {
         $error_message = "Invalid username.";

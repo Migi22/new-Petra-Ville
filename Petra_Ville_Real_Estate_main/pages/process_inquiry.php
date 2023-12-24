@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inquiry Form</title>
+  <script src="../script/goBack.js"></script>
   <link rel="stylesheet" href="../css/inquiry.css">
 </head>
 <body>
+  
   <!--PHP-->
   <div id="message">
       <?php include '../functions/inquiry.php';?>
@@ -15,6 +17,9 @@
   </div>
 
   <div class="inquiry-container">
+
+  <div id="goback"><button onclick="goBack()">Back</button></div>
+
     <form action="process_inquiry.php" method="post">
       <label for="firstName">First Name:</label>
       <input type="text" name="firstName" id="firstName" required>

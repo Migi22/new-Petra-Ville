@@ -40,7 +40,7 @@ $conn->close();
                 <p>View Inquiries</p>
             </a>
         </div>
-        <a href="../functions/admin_portal.php">Logout</a>
+        <a href="../functions/admin_logout.php">Logout</a>
     </div>
 </body>
 </html>
