@@ -10,9 +10,17 @@ body {
     color: #777;
     line-height: 1.7;
 }
+.user-login{
+    display: grid;
+    align-items: center;
+    background-color: brown;
+}
 
 * {
     outline: none;
+}
+.best-second-container{
+    margin-left: 30px;
 }
 
 *:not(.slick-track):not(.slick-list) {
@@ -27,14 +35,14 @@ body {
     align-items: center;
 }
 .nav-user{
-    background-color: #ffc506;
+    background-color: #f69314;
     margin: 0 10px;
   color: #fff;
   font-size: 30px;
   display: inline-flex;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
-  border: 2px solid #ffc506;
+  border: 2px solid #f69314;
   border-radius: 50%;
   padding: 5px;
 }
@@ -61,7 +69,6 @@ body {
   .nav-inquire:active{
     letter-spacing: 3px;
     color: rgb(255, 255, 255);
-    transform: translateY(30px);
     transition: 100ms;
   }
 .container {
@@ -215,7 +222,7 @@ header ul.is-sticky li a.active {
 
 /* start: hero section styles */
 #hero {
-    background-image: url("../assets/images/yos.jpg");
+    background-image: url("./images/yos.jpg");
     background-size: cover;
     position: absolute;
     top: 0;
