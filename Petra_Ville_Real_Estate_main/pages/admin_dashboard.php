@@ -1,14 +1,9 @@
 <?php
-// Include your database connection code here
 include '../config/database.php';
 
 session_start();
 
-// Check if the user is not logged in
-if (!isset($_SESSION['admin_id'])) {
-    header("Location: admin_login.php");
-    exit();
-}
+include '../functions/check_if_logged_in_admin.php';
 
 // Fetch admin information
 $admin_id = $_SESSION['admin_id'];
@@ -35,9 +30,12 @@ $conn->close();
     <div class="dashboard-container">
         <h1>Welcome, <?php echo $admin_info['username']; ?></h1>
         <div class="figure-container">
-            <a href="../pages/admin_side_inquiries.php">
-                <img src="../assets/images/icon_admin.jpg" alt="icon_admin.jpg">
+        <img src="../assets/images/icon_admin.jpg" alt="icon_admin.jpg">
+            <a href="./admin_side_inquiries.php">
                 <p>View Inquiries</p>
+            </a>
+            <a href="./admin_settings.php">
+                <p>Settings</p>
             </a>
         </div>
         <a href="../functions/admin_logout.php">Logout</a>

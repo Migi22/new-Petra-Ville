@@ -1,3 +1,18 @@
+body {
+  background-image: url("../assets/images/yos.jpg");
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .log-in-page {
   
   display: flex;
@@ -6,19 +21,6 @@
   width: 100%;
 }
 
-.log-in-page .overlap-wrapper {
-  background-color: #ffffff;
-  width: 1728px;
-  height: 1117px;
-}
-
-.log-in-page .overlap {
-  position: relative;
-  height: 1117px;
-  background-image: url(background.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-}
 
 .log-in-page .header {
   position: absolute;

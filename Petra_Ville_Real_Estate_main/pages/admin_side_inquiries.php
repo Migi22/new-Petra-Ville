@@ -1,4 +1,10 @@
-<?php include '../functions/admin_side_inquiries_data_query.php';?>
+<?php 
+include '../functions/admin_side_inquiries_data_query.php';
+session_start();
+include '../functions/check_if_logged_in_admin.php';
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +16,7 @@
     <script src = "../script/goBack.js"></script>
 </head>
 <body>
-    <button onclick="goBack()">Back</button>
+    <div id="goback"><a href = "../pages/admin_dashboard.php"><button>Go Back</button></a></div>
     <h1>Inquiries</h1>
 
     <?php

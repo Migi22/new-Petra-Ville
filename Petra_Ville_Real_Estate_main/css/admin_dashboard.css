@@ -1,8 +1,15 @@
-/* admin_dashboard.css */
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    
+    background-image: url("../assets/images/yos.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
     margin: 0;
     padding: 0;
     display: flex;
