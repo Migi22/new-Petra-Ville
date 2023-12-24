@@ -215,7 +215,7 @@ header ul.is-sticky li a.active {
 
 /* start: hero section styles */
 #hero {
-    background-image: url("./images/yos.jpg");
+    background-image: url("../assets/images/yos.jpg");
     background-size: cover;
     position: absolute;
     top: 0;

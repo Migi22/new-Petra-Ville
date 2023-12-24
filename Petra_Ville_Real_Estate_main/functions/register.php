@@ -1,24 +1,6 @@
 <?php
-echo "nakasulod";
-                /*
-                $servername = "sql301.infinityfree.com";
-                $username = "if0_35599178";
-                $password = "10CBmwQfMTE27y";
-                $dbname = "if0_35599178_petra_ville";
-                */
-                
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $dbname = "petra_ville";
-                
-                // Create connection
-                $conn = new mysqli($servername, $username, $password, $dbname);
-                
-                // Check connection
-                if ($conn->connect_error) {
-                    die("Connection failed: " . $conn->connect_error);
-                }
+                //Database connection
+                include '../config/database.php';
                 
                 // Initialize error variable
                 $error = '';
@@ -42,7 +24,7 @@ echo "nakasulod";
                         $stmt->bind_param("ss", $email, $hashedPassword);
                 
                         if ($stmt->execute()) {
-                            header('Location: ../index.php'); // Redirect upon successful registration
+                            header('Location: ../pages/login_page.php'); // Redirect upon successful registration
                             exit;
                         } else {
                             if ($conn->errno == 1062) { // 1062 is the MySQL error code for duplicate entry
