@@ -3,6 +3,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-image: url("../assets/images/yos.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {

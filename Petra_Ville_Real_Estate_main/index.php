@@ -25,7 +25,7 @@
                         <li><a href="./index.php" class="active">Home</a></li>
                         <li><a href="./pages/property_listing.php" target="_blank">Properties</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./pages/process_inquiry.php">Contact</a></li>
                         <a class="nav-inquire-btn" href="./pages/process_inquiry.php"><li class="nav-inquire">Inquire NOW</a></li>
                         <!-- email here-->
                         <li class="user-login"><?php include './functions/header_user.php'; ?></li>

@@ -15,6 +15,48 @@ body {
     align-items: center;
   }
   
+  .container {
+    display: flex;
+    max-width: 800px;
+    box-shadow: 0 0 15px #a3aaad;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 50px 100px 100px 100px;
+    background-color: #a3aaad;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ccc;
+    
+  }
+
+  .contact-container header {
+    color: #164863;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact-container h1 {
+    font-weight: 750;
+    font-size:50px;
+  }
+
+  .contact-container section {
+    margin-top: 20px;
+  }
+
+  .contact-container h3 {
+    color: #4c7aaf;
+  }
+
+  .contact-container p {
+    margin: 5px 0;
+  }
+
+
+
   #goback {
     margin-bottom: 20px;
   }

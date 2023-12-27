@@ -115,7 +115,22 @@
     </form>
   </div>
 
-  
+  <div class="contact-container">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <section>
+      <h3>Contact Details</h3>
+      <p>Landline: (02) 3463-4337</p>
+      <p>Mobile Number: 09457281011</p>
+    
+      <h3>Address</h3>
+      <p>3rd Floor Worldwide Corporate Center, Shaw</p><br>
+      <p>Boulevard, Mandaluyong City, 1552, Philippines</p>
+
+    </section>
+  </div>
 
 
 </body>
