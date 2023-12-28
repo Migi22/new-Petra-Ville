@@ -20,11 +20,11 @@ include '../functions/check_if_logged_in_admin.php';
     <h1>Inquiries</h1>
 
     <?php
-    // Check if there are any inquiries
     if ($result->num_rows > 0) {
         echo "<table border='1'>
                 <tr>
                     <th>Inquiry ID</th>
+                    <th>User ID</th>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
@@ -40,9 +40,10 @@ include '../functions/check_if_logged_in_admin.php';
                 </tr>";
 
         // Output data of each row
-        while($row = $result->fetch_assoc()) {
+        while ($row = $result->fetch_assoc()) {
             echo "<tr>
                     <td>{$row['inquiry_id']}</td>
+                    <td>{$row['user_id']}</td>
                     <td>{$row['first_name']}</td>
                     <td>{$row['last_name']}</td>
                     <td>{$row['email']}</td>

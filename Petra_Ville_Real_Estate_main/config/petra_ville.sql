@@ -20,6 +20,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `petra_ville`
 --
+CREATE DATABASE petra_ville;
+
+use petra_ville;
 
 -- --------------------------------------------------------
 
