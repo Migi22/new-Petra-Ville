@@ -1,6 +1,7 @@
-CREATE DATABASE petra_test;
+-- This is the final db for petra_ville (normalize database)
+CREATE DATABASE petra_ville;
 
-use petra_test;
+use petra_ville;
 
 -- Admin Users Table
 CREATE TABLE admin_users

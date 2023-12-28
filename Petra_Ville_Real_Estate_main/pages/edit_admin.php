@@ -12,7 +12,7 @@ include '../functions/admin_edit.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Admin</title>
     <link rel="stylesheet" href="../css/admin_dashboard.css">
-    <link rel="stylesheet" href="../css/edit_delete.css">
+    <link rel="stylesheet" href="../css/admin_edit_delete.css">
 </head>
 <body>
     <header>

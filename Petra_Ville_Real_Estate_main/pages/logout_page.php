@@ -4,6 +4,7 @@
         <title>
             Log Out page
         </title>
+        <link rel="stylesheet" href="../css/user_settings.css">
     </head>
     <body>
         <ul>

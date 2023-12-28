@@ -126,6 +126,10 @@ p {
     margin: 0 0 1rem;
 }
 
+#view-all-property-listings {
+    text-decoration: none;
+}
+
 button.rounded {
     background: #f69314;
     border: none;
@@ -673,6 +677,7 @@ footer .footer-about {
 footer .footer-about p {
     color: #DDF2FD;
     width: 65%;
+    text-align: justify;
 }
 
 footer .footer-quick-links {

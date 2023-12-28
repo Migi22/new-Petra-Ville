@@ -21,8 +21,10 @@ $conn->close();
     <link rel="stylesheet" href="../css/admin_inquiry.css">
 </head>
 <body>
-    <div id="goback"><a href = "./admin_dashboard.php"><button>Go Back</button></a></div>
 
+    <div id="goback"><a href = "./admin_settings.php"><button>Go Back</button></a></div>
+
+    
     <h1>User Admins</h1>
     <?php
     if ($result->num_rows > 0) {

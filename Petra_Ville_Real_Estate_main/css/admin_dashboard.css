@@ -15,7 +15,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 .dashboard-container {
@@ -45,4 +44,17 @@ img {
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
+}
+
+#goback button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#goback button:hover {
+    background-color: #0056b3;
 }

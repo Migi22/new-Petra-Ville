@@ -29,10 +29,10 @@
                     </button>
 
                     <ul id="nav-menu">
-                        <li><a href="../index.php" class="active">Home</a></li>
-                        <li><a href="../pages/property_listing.php">Properties</a></li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="../pages/property_listing.php"  class="active">Properties</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="../pages/process_inquiry.php">Contact</a></li>
                         <a class="nav-inquire-btn" href="./pages/process_inquiry.php"><li class="nav-inquire">Inquire NOW</a></li>
                         <!-- email here-->
                         
@@ -256,16 +256,16 @@
         <div class="flex container">
             <div class="footer-about">
                 <h5>About Stated</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <p>Welcome to Petra Ville Real Estate, your gateway to effortless property transactions. Explore a world of real estate possibilities with our innovative and user-friendly platform.</p>
             </div>
 
             <div class="footer-quick-links">
                 <h5>Quick Links</h5>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Properties</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./pages/property_listing.php">Properties</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="./pages/process_inquiry.php">Contact Us</a></li>
                     
                 </ul>
             </div>

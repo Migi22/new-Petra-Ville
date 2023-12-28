@@ -16,7 +16,7 @@ include '../functions/check_if_logged_in_admin.php';
     <script src = "../script/goBack.js"></script>
 </head>
 <body>
-    <div id="goback"><a href = "../pages/admin_dashboard.php"><button>Go Back</button></a></div>
+    <div id="goback"><a href = "../pages/admin_settings.php"><button>Go Back</button></a></div>
     <h1>Inquiries</h1>
 
     <?php

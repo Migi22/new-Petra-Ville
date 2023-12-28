@@ -39,10 +39,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <title>Add Admin</title>
+    <link rel="stylesheet" href="../css/admin_dashboard.css">
+    <link rel="stylesheet" href="../css/admin_add.css">
 </head>
 <body>
-    <div id="goback"><a href="./admin_dashboard.php"><button>Go Back</button></a></div>
-    <h1>Add User Admin</h1>
+    <div id="goback"><a href="./admin_settings.php"><button>Go Back</button></a></div>
+    
 
     <?php
     // Display success or error message
@@ -53,20 +55,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     ?>
 
-    <form method="post" action="">
-        <label for="fname">First Name:</label>
-        <input type="text" name="fname" required>
+    <div class="admin-details-container">
+        <h1>Add User Admin</h1>
+        <form method="post" action="">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" required>
 
-        <label for="lname">Last Name:</label>
-        <input type="text" name="lname" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" required>
 
-        <label for="username">Username:</label>
-        <input type="text" name="username" required>
+            <label for="username">Username:</label>
+            <input type="text" name="username" required>
 
-        <label for="password">Password:</label>
-        <input type="password" name="password" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
 
-        <button type="submit">Add User</button>
-    </form>
+            <button type="submit">Add User</button>
+        </form>
+    </div>
 </body>
 </html>

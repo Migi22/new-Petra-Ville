@@ -148,7 +148,9 @@
                 </div>
             </div>
 
-            <button class="rounded">View All Property Listings</button>
+            <a href="./pages/property_listing.php" id="view-all-property-listings">
+                <button class="rounded">View All Property Listings</button>
+            </a>
         </div>
     </section>
 
@@ -180,7 +182,7 @@
                     <div class="fas fa-home"></div>
                     <div class="services-card-right">
                         <h3>Search Property</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Explore real estate effortlessly. Find your dream property with our tailored search feature.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -189,7 +191,7 @@
                     <div class="fas fa-dollar-sign"></div>
                     <div class="services-card-right">
                         <h3>Buy Property</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Discover your perfect home. Explore a diverse range of properties available for purchase.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -198,7 +200,7 @@
                     <div class="fas fa-chart-line"></div>
                     <div class="services-card-right">
                         <h3>Investing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Unlock investment opportunities. Explore properties with high potential returns for savvy investors.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -207,7 +209,7 @@
                     <div class="fas fa-building"></div>
                     <div class="services-card-right">
                         <h3>List a Property</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Sell with confidence. Showcase your property to a wide audience by listing it with us.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -216,7 +218,7 @@
                     <div class="fas fa-search"></div>
                     <div class="services-card-right">
                         <h3>Property Locator</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Effortless property search. Let our experts find the perfect property for you based on your preferences.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -225,7 +227,7 @@
                     <div class="fas fa-mobile-alt"></div>
                     <div class="services-card-right">
                         <h3>Stated Apps</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Revolutionize your real estate experience. Explore our state-of-the-art apps for seamless property management.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -275,17 +277,17 @@
     <footer>
         <div class="flex container">
             <div class="footer-about">
-                <h5>About Stated</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <h5>About Petra Ville Real Estate</h5>
+                <p>Welcome to Petra Ville Real Estate, your gateway to effortless property transactions. Explore a world of real estate possibilities with our innovative and user-friendly platform.</p>
             </div>
 
             <div class="footer-quick-links">
                 <h5>Quick Links</h5>
                 <ul>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="./pages/property_listing.php">Properties</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="./pages/process_inquiry.php">Contact Us</a></li>
                     
                 </ul>
             </div>
