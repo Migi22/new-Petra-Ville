@@ -20,12 +20,16 @@
             <div class="flex container">
                 <a id="logo" href="/">PETRA VILLE REAL ESTATE</a>
                 <nav>
-
+                <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
                     <ul id="nav-menu">
                         <li><a href="./index.php" class="active">Home</a></li>
                         <li><a href="./pages/property_listing.php" target="_blank">Properties</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="./pages/process_inquiry.php">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                         <a class="nav-inquire-btn" href="./pages/process_inquiry.php"><li class="nav-inquire">Inquire NOW</a></li>
                         <!-- email here-->
                         <li class="user-login"><?php include './functions/header_user.php'; ?></li>
@@ -235,76 +239,38 @@
             <div id="testimonials-slider">
                 <div>
                     <blockquote>
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    <p>"The platform's commitment to clarity and simplicity truly sets it apart. Navigating through the different sections is seamless, and I find the property search process to be both efficient and enjoyable."</p>
                     </blockquote>
                     <div class="testimonials-caption">
-                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_7.jpg" alt="Client 7" />
-                        <p>Nick Andros</p>
+                        <img src="./assets/images/clrk.jpg" alt="Client 7" />
+                        <p>clark Xavier</p>
                     </div>
                 </div>
 
                 <div>
                     <blockquote>
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    <p>"I've been thoroughly impressed with the PETRA VILLE REAL ESTATE services provided by this website. It's not just about finding the perfect property; it's about the speed and efficiency with which they handle inquiries."</p>
                     </blockquote>
                     <div class="testimonials-caption">
-                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Client 7" />
-                        <p>Larry Underwood</p>
+                        <img src="./assets/images/baste.jpg" alt="Client 7" />
+                        <p>Junrey Baste</p>
                     </div>
                 </div>
 
                 <div>
                     <blockquote>
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    <p>"I can't express enough how much I love using this PETRA VILLE REAL ESTATE website. The user experience is simply unparalleled, making the entire property search process a delight. Every visit to the site feels like a seamless journey of exploration and discovery.</p>
                     </blockquote>
                     <div class="testimonials-caption">
-                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_8.jpg" alt="Client 7" />
-                        <p>Fran Goldsmith</p>
+                        <img src="./assets/images/ash.jpg" alt="Client 7" />
+                        <p>Ashley Jolito</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-
-            <div class="flex">
-                <div id="form-container">
-                    <h3>Contact Form</h3>
-                    <form>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" />
-
-                        <label for="email">Email</label>
-                        <input type="text" id="email" />
-
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" />
-
-                        <label for="message">Message</label>
-                        <textarea id="message">Write your message here..</textarea>
-
-                        <button class="rounded">Send Message</button>
-                    </form>
-                </div>
-
-                <div id="address-container">
-                    <label>Address</label>
-                    <address>
-                        20377 Evergreen Terrace Mountain View, California, USA 
-                    </address>
-
-                    <label>Phone</label>
-                    <a href="#">232-232-2323</a>
-
-                    <label>Email Address</label>
-                    <a href="#">ouremail@domain.com</a>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
 
     <footer>
         <div class="flex container">
@@ -324,21 +290,7 @@
                 </ul>
             </div>
 
-            <div class="footer-subscribe">
-                <h5>Subscribe to our Newsletter</h5>
-                <div id="subscribe-container">
-                    <input type="text" placeholder="Enter Email" />
-                    <button class="right-rounded">Send</button>
-                </div>
-
-                <h5 class="follow-us">Follow Us</h5>
-                <ul>
-                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                </ul>
-            </div>
+           
         </div>
 
         <small>

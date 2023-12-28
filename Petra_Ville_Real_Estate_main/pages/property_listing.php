@@ -80,9 +80,9 @@
             <div id="propertyListings">
                 <!-- Property Listing Template 1 -->
                 <div class="property-listing" data-name="Downtown House" data-location="Downtown" data-price="2000000">
-                    <img  src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="For Sale Image">
-                    <h2>House for Sale - 3 BR / 2 BA - Downtown</h2>
-                    <p>Welcome to this beautiful house located in the heart of downtown. This 3-bedroom, 2-bathroom home is perfect for families looking for modern amenities and convenience.</p>
+                <img src="https://onclickwebdesign.com/wp-content/uploads/property_2.jpg" alt="For Rent Image">
+                    <h2 class="title-listing">House for Sale - 3 BR / 2 BA - Downtown</h2>
+                    <p class="p-listing">Welcome to this beautiful house located in the heart of downtown. This 3-bedroom, 2-bathroom home is perfect for families looking for modern amenities and convenience.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 3</li>
                         <li><strong>Bathrooms:</strong> 2</li>
@@ -93,13 +93,12 @@
                     </ul>
                     <p><strong>Key Features:</strong> Spacious living area, modern kitchen, hardwood floors, backyard garden.</p>
                     <p><strong>Price:</strong> 2,000,000 PHP</p>
-                    <p><button onclick="contactAgent('Downtown House')">Contact Agent</button></p>
                 </div>
                 <!-- Property Listing Template 2 -->
                 <div class="property-listing" data-name="Suburban Condo" data-location="Suburb" data-price="3000000">
                     <img src="https://onclickwebdesign.com/wp-content/uploads/property_2.jpg" alt="For Rent Image">
-                    <h2>Condo for Rent - 2 BR / 1 BA - Suburb</h2>
-                    <p>Enjoy suburban living in this cozy 2-bedroom, 1-bathroom condo. Conveniently located in a quiet suburb with easy access to local amenities.</p>
+                    <h2 class="title-listing">Condo for Rent - 2 BR / 1 BA - Suburb</h2>
+                    <p class="p-listing">Enjoy suburban living in this cozy 2-bedroom, 1-bathroom condo. Conveniently located in a quiet suburb with easy access to local amenities.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 2</li>
                         <li><strong>Bathrooms:</strong> 1</li>
@@ -110,13 +109,13 @@
                     </ul>
                     <p><strong>Key Features:</strong> Modern design, balcony with a view, community pool.</p>
                     <p><strong>Price:</strong> 3,000,000 PHP</p>
-                    <p><button onclick="contactAgent('Suburban Condo')">Contact Agent</button></p>
                 </div>
                 <!-- Property Listing Template 3 -->
-                <div class="property-listing" data-name="Luxury Villa" data-location="Exclusive Area" data-price="3000000" data-type="rent">
+               <div class="property-listing" data-name="Luxury Villa" data-location="Exclusive Area" data-price="5000000" data-type="rent">
+               <a class="d-link" href="listdetails.php">
                     <img src="https://onclickwebdesign.com/wp-content/uploads/property_3.jpg" alt="For Sale Image">
-                    <h2>Luxury Villa for Sale - 5 BR / 4 BA - Exclusive Area</h2>
-                    <p>Experience luxury living in this exquisite 5-bedroom, 4-bathroom villa located in an exclusive area. The property features top-notch amenities and stunning views.</p>
+                    <h2 class="title-listing">Luxury Villa for Sale - 5 BR / 4 BA - Exclusive Area</h2>
+                    <p class="p-listing">Experience luxury living in this exquisite 5-bedroom, 4-bathroom villa located in an exclusive area. The property features top-notch amenities and stunning views.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 5</li>
                         <li><strong>Bathrooms:</strong> 4</li>
@@ -127,13 +126,14 @@
                     </ul>
                     <p><strong>Key Features:</strong> Private pool, spacious interiors, beautiful landscaping.</p>
                     <p><strong>Price:</strong> 5,000,000 PHP</p>
-                    <p><button onclick="contactAgent('Luxury Villa')">Contact Agent</button></p>
+                    </a>
                 </div>
+                
                 <!-- Property Listing Template 4 -->
                 <div class="property-listing" data-name="Apartment with a View" data-location="City Center" data-price="5000000" data-type="rent">
                     <img src="https://onclickwebdesign.com/wp-content/uploads/property_4.jpg" alt="For Rent Image">
-                    <h2>Apartment for Rent - 1 BR / 1 BA - City Center</h2>
-                    <p>Live in style in this modern 1-bedroom, 1-bathroom apartment located in the heart of the city center. Enjoy breathtaking views and convenient access to urban amenities.</p>
+                    <h2 class="title-listing">Apartment for Rent - 1 BR / 1 BA - City Center</h2>
+                    <p class="p-listing">Live in style in this modern 1-bedroom, 1-bathroom apartment located in the heart of the city center. Enjoy breathtaking views and convenient access to urban amenities.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 1</li>
                         <li><strong>Bathrooms:</strong> 1</li>
@@ -144,12 +144,11 @@
                     </ul>
                     <p><strong>Key Features:</strong> City views, modern design, close to public transportation.</p>
                     <p><strong>Price:</strong> 5,000,000 PHP</p>
-                    <p><button onclick="contactAgent('Apartment with a View')">Contact Agent</button></p>
                 </div>
                 <div class="property-listing" data-name="Apartment with a View" data-location="City Center" data-price="2000000" data-type="sale">
                     <img src="https://onclickwebdesign.com/wp-content/uploads/property_4.jpg" alt="For Rent Image">
-                    <h2>Apartment for Rent - 1 BR / 1 BA - City Center</h2>
-                    <p>Live in style in this modern 1-bedroom, 1-bathroom apartment located in the heart of the city center. Enjoy breathtaking views and convenient access to urban amenities.</p>
+                    <h2 class="title-listing">Apartment for Rent - 1 BR / 1 BA - City Center</h2>
+                    <p class="p-listing">Live in style in this modern 1-bedroom, 1-bathroom apartment located in the heart of the city center. Enjoy breathtaking views and convenient access to urban amenities.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 1</li>
                         <li><strong>Bathrooms:</strong> 1</li>
@@ -160,12 +159,11 @@
                     </ul>
                     <p><strong>Key Features:</strong> City views, modern design, close to public transportation.</p>
                     <p><strong>Price:</strong> 5,000,000 PHP</p>
-                    <p><button onclick="contactAgent('Apartment with a View')">Contact Agent</button></p>
                 </div>
                 <div class="property-listing" data-name="Apartment with a View" data-location="City Center" data-price="3000000" data-type="sale">
                     <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="For Rent Image">
-                    <h2>Apartment for Rent - 1 BR / 1 BA - City Center</h2>
-                    <p>Live in style in this modern 1-bedroom, 1-bathroom apartment located in the heart of the city center. Enjoy breathtaking views and convenient access to urban amenities.</p>
+                    <h2 class="title-listing">Apartment for Rent - 1 BR / 1 BA - City Center</h2>
+                    <p class="p-listing">Live in style in this modern 1-bedroom, 1-bathroom apartment located in the heart of the city center. Enjoy breathtaking views and convenient access to urban amenities.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 1</li>
                         <li><strong>Bathrooms:</strong> 1</li>
@@ -176,12 +174,11 @@
                     </ul>
                     <p><strong>Key Features:</strong> City views, modern design, close to public transportation.</p>
                     <p><strong>Price:</strong> 1,000,000 PHP</p>
-                    <p><button onclick="contactAgent('Apartment with a View')">Contact Agent</button></p>
                 </div>
                 <div class="property-listing" data-name="Modern Loft" data-location="Downtown" data-price="1000000" data-type="rent">
                     <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="For Sale Image">
-                    <h2>Modern Loft for Sale - 2 BR / 2 BA - Downtown</h2>
-                    <p>Explore this stylish modern loft featuring 2 bedrooms and 2 bathrooms. Located in the vibrant downtown area, this property offers a unique and contemporary living space.</p>
+                    <h2 class="title-listing">Modern Loft for Sale - 2 BR / 2 BA - Downtown</h2>
+                    <p class="p-listing">Explore this stylish modern loft featuring 2 bedrooms and 2 bathrooms. Located in the vibrant downtown area, this property offers a unique and contemporary living space.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 2</li>
                         <li><strong>Bathrooms:</strong> 2</li>
@@ -191,13 +188,12 @@
                         <li><strong>Year Built:</strong> 2022</li>
                     </ul>
                     <p><strong>Key Features:</strong> Open floor plan, high ceilings, large windows.</p>
-                    <p><strong>Price:</strong> 2,500,000 PHP</p>
-                    <p><button onclick="contactAgent('Modern Loft')">Contact Agent</button></p>
+                    <p><strong>Price:</strong> 1,000,000 PHP</p>
                 </div>
                 <div class="property-listing" data-name="Suburban Home" data-location="Suburb" data-price="3500000" data-type="sale">
                     <img src="https://onclickwebdesign.com/wp-content/uploads/property_4.jpg" alt="For Sale Image">
-                    <h2>Suburban Home for Sale - 4 BR / 3 BA - Suburb</h2>
-                    <p>Discover this spacious suburban home with 4 bedrooms and 3 bathrooms. Enjoy a peaceful neighborhood and a large backyard, perfect for family gatherings.</p>
+                    <h2 class="title-listing">Suburban Home for Sale - 4 BR / 3 BA - Suburb</h2>
+                    <p class="p-listing">Discover this spacious suburban home with 4 bedrooms and 3 bathrooms. Enjoy a peaceful neighborhood and a large backyard, perfect for family gatherings.</p>
                     <ul>
                         <li><strong>Bedrooms:</strong> 4</li>
                         <li><strong>Bathrooms:</strong> 3</li>
@@ -208,7 +204,6 @@
                     </ul>
                     <p><strong>Key Features:</strong> Spacious interiors, backyard, attached garage.</p>
                     <p><strong>Price:</strong> 3,500,000 PHP</p>
-                    <p><button onclick="contactAgent('Suburban Home')">Contact Agent</button></p>
                 </div>
                 <!-- Additional property listings can be added similarly -->
             </div>
@@ -267,29 +262,15 @@
             <div class="footer-quick-links">
                 <h5>Quick Links</h5>
                 <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Properties</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Contact</a></li>
                     
                 </ul>
             </div>
 
-            <div class="footer-subscribe">
-                <h5>Subscribe to our Newsletter</h5>
-                <div id="subscribe-container">
-                    <input type="text" placeholder="Enter Email" />
-                    <button class="right-rounded">Send</button>
-                </div>
-
-                <h5 class="follow-us">Follow Us</h5>
-                <ul>
-                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                </ul>
-            </div>
+         
         </div>
 
         <small>

@@ -647,13 +647,13 @@ header ul.is-sticky li a.active {
 
 /* start: footer styles */
 footer {
-    background: #333;
+    background: #164863;
     padding: 8rem 0;
 }
 
 footer .flex {
     padding-bottom: 6rem;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #DDF2FD;
 }
 
 footer h5 {
@@ -671,14 +671,19 @@ footer .footer-about {
 }
 
 footer .footer-about p {
+    color: #DDF2FD;
     width: 65%;
 }
 
 footer .footer-quick-links {
-    width: 16%;
+    align-items: center;
 }
 
 footer .footer-quick-links ul {
+    justify-content: space-between;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -689,12 +694,12 @@ footer .footer-quick-links ul li {
 }
 
 footer .footer-quick-links ul li a {
-    color: #777;
+    color: #DDF2FD;
     text-decoration: none;
 }
 
 footer .footer-quick-links ul li a:hover {
-    color: #fff;
+    color: #DDF2FD;
 }
 
 footer .footer-subscribe {
@@ -709,7 +714,7 @@ footer .footer-subscribe input {
     border-radius: 30px;
     height: 43px;
     font-family: "Roboto", "Helvetica", "Sans-serif";
-    border: 1px solid #6c757d;
+    border: 1px solid #DDF2FD;
     background-color: transparent;
     font-size: 1rem;
     padding: 10px;
@@ -784,10 +789,19 @@ footer small a:hover {
     }
 
     #nav-toggle {
+        margin-left: 40px;
         display: block;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         position: fixed;
         background: #fff;
         right: -100%;
