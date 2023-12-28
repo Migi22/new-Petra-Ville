@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.property-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.d-price{
+    background-color: #427D9D;
+    width: 10%;
+    text-align: center;
+    color: white;
+}
+.img-tainer{
+    max-width: 800px;
+}
+.d-image{
+    width: 100%;
+}
+
+.middle-details{
+    display: flex;
+}
+.pd{
+    text-align: justify;
+}
+.property-details{
+    width: 40%;
+    margin-left: 50px;
+}
+
+.nav-inquire2{
+    background-color: coral;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
+
+#propertyListings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.property-listing {
+    
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.property-listing img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.property-listing:hover{
+    background-color: rgba(255, 145, 0, 0.397);
+    
+}
+
+.listing-set{
+    margin-bottom: 3em;
+}
+input,select{
+    padding: 1em 1em 1em 1em;
+    font-size: 15px;
+}
+.search-click{
+    padding: 1em 3em 1em 3em;
+    font-size: 15px;
+    
+}
+.search-click:hover{
+    background-color: rgba(255, 123, 0, 0.822);
+}
+.login-menu{
+    background-color: coral;
+}
+.login-menu{
+    background-color: coral;
+}
+@media (min-width:  1100px) {
+    #propertyListings {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+    .title-listing,.p-listing{
+        font-size: 20px;
+    }
+}
+@media (min-width:  1300px) {
+    .title-listing,.p-listing{
+        font-size: 20px;
+    }
+}
