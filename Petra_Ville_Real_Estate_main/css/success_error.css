@@ -1,6 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-image: url("../assets/images/yos.jpg");
+    background-size: cover;
+    text-align: center;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,25 +12,31 @@ body {
     height: 100vh;
 }
 
-h1 {
+#main-container {
+    padding: 90px;
+    background-color: aliceblue;
+    border-radius: 20%;
+}
+
+#main-container h1 {
     color: #333;
 }
 
-p {
+#main-container p {
     color: #28a745; /* Green color for success message */
     font-size: 1.2em;
 }
 
-a {
+#main-container a {
     color: #007bff; /* Blue color for the link */
     text-decoration: none;
 }
 
-a:hover {
+#main-container a:hover {
     text-decoration: underline;
 }
 
-h5 {
+#main-container h5 {
     margin-top: 20px;
 }
 

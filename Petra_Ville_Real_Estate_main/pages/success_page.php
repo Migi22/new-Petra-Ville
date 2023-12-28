@@ -18,12 +18,15 @@ if (isset($_SESSION['success_message'])) {
     <title>Thank You!</title>
 </head>
 <body>
-    <h1>Thank You!</h1>
-    <?php
-    if (isset($successMessage)) {
-        echo "<p>{$successMessage}</p>";
-    }
-    ?>
-    <h5><a href="../index.php">Go Back</a></h5>
+    <div id="main-container">
+        <h1>Thank You!</h1>
+        <?php
+        if (isset($successMessage)) {
+            echo "<p>{$successMessage}</p>";
+        }
+        ?>
+        <h5><a href="../index.php">Go Back</a></h5>
+    </div>
+    
 </body>
 </html>
