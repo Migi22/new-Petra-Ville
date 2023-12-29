@@ -31,7 +31,7 @@
                     <ul id="nav-menu">
                         <li><a href="../index.php">Home</a></li>
                         <li><a href="../pages/property_listing.php"  class="active">Properties</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./about_page.php">About</a></li>
                         <li><a href="../pages/process_inquiry.php">Contact</a></li>
                         <a class="nav-inquire-btn" href="./pages/process_inquiry.php"><li class="nav-inquire">Inquire NOW</a></li>
                         <!-- email here-->

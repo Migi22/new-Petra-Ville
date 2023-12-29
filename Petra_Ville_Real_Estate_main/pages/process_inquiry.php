@@ -26,7 +26,7 @@
       <input type="text" name="lastName" id="lastName" required>
 
       <label for="email">Email:</label>
-      <input type="email" name="email" id="email" readonly value="<?php echo isset($_SESSION['user_email']) ? $_SESSION['user_email'] : ''; ?>">
+      <input type="email" name="email" placeholder="Log In first!" id="email" readonly value="<?php echo isset($_SESSION['user_email']) ? $_SESSION['user_email'] : ''; ?>">
 
       <label for="phone">Phone:</label>
       <input type="tel" name="phone" id="phone" required>
